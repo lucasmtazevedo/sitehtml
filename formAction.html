@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Cultural Curitiba</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> 1º Rota Cultural Curitiba </h1>
+        <div class="Menu">
+            <a class="active" href="index.html">Inicio</a>
+            <a href="about.html">Programação</a>
+            <a href="contact.html">Fale Conosco</a>
+        </div>
+        <img src="images/LOGO.jpg" class="Logo">
+    </header>
+    <script src="js/script.js"></script>
+    <div class="content">
+
+        <h2>Dados de Contato</h2>
+
+        <table class="tableCSS">
+            <tr><th>Chave</th><th>Valor</th></tr>
+            <script language=javascript>
+                var params = new Array();
+                params = getParameters();
+                for (let [key, value] of Object.entries(params)) {
+                    document.write("<tr><th>" + key + "</th><td>" + value + "</td></tr>");
+                }
+            </script>
+        </table>
+            <input type=button class="form-submit" 
+                   value=" << Retornar" onclick="history.back()">
+  </body>
+    <footer>
+    &copy; 2023 Todos os Direitos Reservados.
+    </footer>
+</body>
+</html>

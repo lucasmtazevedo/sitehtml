@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Cultural Curitiba</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1> 1º Rota Cultural Curitiba </h1>
+        <div class="Menu">
+            <a class="active" href="index.html">Inicio</a>
+            <a href="about.html">Programação</a>
+            <a href="contact.html">Fale Conosco</a>
+        </div>
+        <img src="images/LOGO.jpg" class="Logo">
+    </header>
+    <div class="Conteudo">
+        <h2>Formulário para Contato</h2>
+        <h3>Para receber mais informações, preencha a seguir: </h3>
+            <form method="GET" action="formAction.html" >
+                <label for="name" aria-hidden="true"></label>
+                <textarea name="Nome" id="name" placeholder="Seu Nome" required></textarea>
+                <br>
+                <label for="email" aria-hidden="true"></label>
+                <input type="email" name="Email" id="email" placeholder="Seu Email" required>
+                <br>
+                <label for="mensagem" aria-hidden="true"></label>
+                <textarea name="Mensagem" id="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <br>
+                <div class="form-group form-button">
+                    <input type="submit" class="form-submit" value="Enviar"> 
+                    <input type="reset"  class="form-submit" value="Limpar">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Todos os Direitos Reservados.
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
